@@ -57,9 +57,13 @@ Esto levantará la aplicación localmente, por lo general en **http://localhost:
 ## 📌 3. Características Implementadas
 
 ✅ **Listado de formularios disponibles** 📋
+
 ✅ **Creación y edición de formularios** 📝
+
 ✅ **Agregar y eliminar campos en formularios** ➕✏️
+
 ✅ **Ingresar datos en los formularios** ✅
+
 ✅ **Validaciones básicas en los formularios** ⚠️
 
 
@@ -71,7 +75,9 @@ Esto levantará la aplicación localmente, por lo general en **http://localhost:
 A continuación, se presentan capturas de pantalla de las principales funcionalidades:
 
 ### **📍 Pantalla de Listado de Formularios**
+
 ✅ Muestra los formularios disponibles.
+
 ✅ Permite seleccionar un formulario para visualizarlo a detalle
 
 
@@ -80,7 +86,9 @@ A continuación, se presentan capturas de pantalla de las principales funcionali
 
 
 ### **📍 Pantalla de Creación de Formularios**
+
 ✅ Permite crear un nuevo formulario.
+
 ✅ Permite agregar campos dinámicamente.
 
 
@@ -94,21 +102,24 @@ A continuación, se presentan capturas de pantalla de las principales funcionali
 
 
 ### **📍 Pantalla de Edición de Formularios**
+
 ✅ Permite editar el nombre y los campos de un formulario existente.
+
 ✅ Valida los campos antes de guardarlos.
 
 ![image](https://github.com/user-attachments/assets/b74f1a71-fa8a-43f0-bd91-b337b9053180)
+![image](https://github.com/user-attachments/assets/cdb6b1b3-d263-48d9-b928-d094bde6a1ab)
+![image](https://github.com/user-attachments/assets/83ad8016-5b0a-4b91-93d9-384d1822e30a)
+![image](https://github.com/user-attachments/assets/17b7ef38-6427-401c-bbb7-1dc10e460868)
+![image](https://github.com/user-attachments/assets/f6cb1b2d-24cc-4b4c-b55d-e63a49327733)
+![image](https://github.com/user-attachments/assets/257a4ce9-59ec-4e00-8b25-0eed5d63b72f)
 
 
 
 
-### **📍 Pantalla de Ingreso de Datos en Formularios **
-✅ Permite ingresar información en un formulario.
-✅ Guarda los datos temporalmente para consulta.
-
-*(Adjuntar captura de pantalla aquí)*
 
 ### **📍 Pantalla de Consulta de Datos Ingresados**
+
 ✅ Muestra los datos de un form
 
 ![image](https://github.com/user-attachments/assets/f1595f53-87d0-4acf-8dea-e19c34cfc569)
@@ -140,17 +151,17 @@ A continuación, se presentan capturas de pantalla de las principales funcionali
 
 ## 📌 5. Consideraciones Futuros
 
-🚀 **Este frontend está preparado para conectarse con un backend en .NET Core**, donde se obtendrán y almacenarán los formularios dinámicamente en una base de datos.
+🚀 **Este frontend está preparado para conectarse con un backend en .NET Core 8, donde se obtendrán y almacenarán los formularios dinámicamente en una base de datos.
 
-💡 **Una vez el backend esté listo, se actualizarán las llamadas a la API en los componentes correspondientes.**
 
-📍 **Si tienes dudas, revisa la documentación o contáctame.** 😊
+
+📍 **Si tienes dudascontáctame.** 😊
 
 ---
 
 ## 📌 6. Contacto
-Si tienes alguna duda o sugerencia, puedes contactarme a través de GitHub o correo electrónico.
+Si tienes alguna duda o sugerencia, puedes contactarme a través de mi correo electrónico.
 
-📧 Email: [tuemail@ejemplo.com](mailto:tuemail@ejemplo.com)
-💻 GitHub: [https://github.com/tuusuario](https://github.com/tuusuario)
+📧 Email: [coryorc@yahoo.es](mailto:coryorc@yahoo.es)
+
 
