@@ -1,0 +1,231 @@
+
+**Base de Datos**: MongoDB (En la nube con MongoDB Atlas) → el proyecto usa una base de datos en la nube con mongoAtlas por lo cual no es necesario tener instalado mongo, se puede realizar la conexion a la base desde cualquier gestor de bases de datos utilizando la siguiente cadena de conexion
+
+ "ConnectionString":
+ 
+mongodb+srv://netby:netby@cluster0.zfdjr.mongodb.net/
+
+
+"DatabaseName":
+
+"netbyDB
+
+
+Nota: la DB ya tiene registros, solo hay que conectarse como se indica anteriormente.
+En caso de querer replicar la base aqui esta el script
+
+
+
+db.personas.insertMany([
+  {
+    _id: ObjectId("67a448212d4cd808c33fde5e"),
+    id: "454228675",
+    inputs: [
+      {
+        id: "7",
+        name: "Marca",
+        type: "text",
+        placeholder: "Ingresa la marca del vehículo",
+        required: true
+      },
+      {
+        id: "8",
+        name: "Modelo",
+        type: "text",
+        placeholder: "Ingresa el modelo",
+        required: true
+      },
+      {
+        id: "9",
+        name: "Año",
+        type: "number",
+        placeholder: "Ingresa el año",
+        required: false
+      },
+      {
+        id: "1738821802479",
+        name: "campo agregado desde el frontal",
+        type: "text",
+        placeholder: "este input se agrego desde el frontal",
+        required: true
+      }
+    ],
+    name: "Vehículos"
+  },
+  {
+    _id: ObjectId("67a44bec2d4cd808c33fde6b"),
+    id: "1476369726",
+    inputs: [
+      {
+        id: "1",
+        name: "Nombres",
+        type: "text",
+        placeholder: "Ingresa tu nombre",
+        required: true
+      },
+      {
+        id: "2",
+        name: "Fecha de nacimiento",
+        type: "date",
+        placeholder: "",
+        required: true
+      },
+      {
+        id: "3",
+        name: "Estatura",
+        type: "number",
+        placeholder: "Ingresa tu estatura en cm",
+        required: false
+      }
+    ],
+    name: "Persona"
+  },
+  {
+    _id: ObjectId("67a44c382d4cd808c33fde6f"),
+    id: "1712224392",
+    inputs: [
+      {
+        id: "4",
+        name: "Especie",
+        type: "text",
+        placeholder: "Ingresa la especie",
+        required: true
+      },
+      {
+        id: "5",
+        name: "Raza",
+        type: "text",
+        placeholder: "Ingresa la raza",
+        required: false
+      },
+      {
+        id: "6",
+        name: "Color",
+        type: "text",
+        placeholder: "Ingresa el color",
+        required: false
+      }
+    ],
+    name: "Mascota"
+  },
+  {
+    _id: ObjectId("67a451922d4cd808c33fde7d"),
+    id: "1146090801",
+    inputs: [
+      {
+        id: "4",
+        name: "direccion",
+        type: "text",
+        placeholder: "Ingresa la dir",
+        required: true
+      },
+      {
+        id: "5",
+        name: "precio",
+        type: "text",
+        placeholder: "Ingresa precio",
+        required: false
+      },
+      {
+        id: "6",
+        name: "Color",
+        type: "text",
+        placeholder: "Ingresa el color",
+        required: false
+      }
+    ],
+    name: "viviendas"
+  },
+  {
+    _id: ObjectId("67a4519f2d4cd808c33fde7e"),
+    id: "1420739136",
+    inputs: [
+      {
+        id: "4",
+        name: "direccion",
+        type: "text",
+        placeholder: "Ingresa la dir",
+        required: true
+      },
+      {
+        id: "5",
+        name: "precio",
+        type: "text",
+        placeholder: "Ingresa precio",
+        required: false
+      },
+      {
+        id: "6",
+        name: "Color",
+        type: "text",
+        placeholder: "Ingresa el color",
+        required: false
+      }
+    ],
+    name: "viviendassssss"
+  },
+  {
+    _id: ObjectId("67a45b342d4cd808c33fde9d"),
+    id: "1307847549",
+    inputs: [
+      {
+        id: "1738824458192",
+        name: "nombre del formulario",
+        type: "text",
+        placeholder: "",
+        required: false
+      },
+      {
+        id: "1738824471489",
+        name: "tipo de formulario",
+        type: "text",
+        placeholder: "",
+        required: false
+      },
+      {
+        id: "1738824497939",
+        name: "",
+        type: "text",
+        placeholder: "",
+        required: false
+      }
+    ],
+    name: "form creado desde el front"
+  },
+  {
+    _id: ObjectId("67a45d7f2d4cd808c33fdea5"),
+    id: "1306149263",
+    inputs: [
+      {
+        id: "1738825046214",
+        name: "primer campo creado desde el front",
+        type: "text",
+        placeholder: "este campo se creo defsde el frontal",
+        required: false
+      }
+    ],
+    name: "form 2 creado desde el frontal"
+  },
+  {
+    _id: ObjectId("67a463b02d4cd808c33fdeb7"),
+    id: "152846385",
+    inputs: [
+      {
+        id: "1738826559939",
+        name: "campo 1 del formulario",
+        type: "text",
+        placeholder: "texto de prueba",
+        required: false
+      },
+      {
+        id: "1738826617317",
+        name: "campo 2",
+        type: "email",
+        placeholder: "etiqueta del campo 2",
+        required: false
+      }
+    ],
+    name: "creando un formulario desde ele front"
+  }
+]);
+
