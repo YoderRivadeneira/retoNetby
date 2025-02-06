@@ -1,6 +1,6 @@
 # 🚀 Proyecto: Gestor de Formularios Dinámicos
 
-Este proyecto es un **frontend desarrollado en React con TypeScript y Bootstrap** que permite la creación, edición e ingreso de datos en formularios de manera dinámica.
+Este proyecto es un **frontend desarrollado en React con TypeScript, Bootstrap y net core** que permite la creación, edición e ingreso de datos en formularios de manera dinámica.
 
 ---
 
@@ -44,19 +44,19 @@ Para verificar si tienes .NET SDK instalado, usa el siguiente comando en tu term
 dotnet --version
 ```
 
-Docker (Opcional, si deseas correr el API en un contenedor) → El proyecto cuenta con su dockerfile y es totalmente funcional en un contenedor docker en caso de que se desee levantarlo en docker
+**Docker** (Opcional, si deseas correr el API en un contenedor) → El proyecto cuenta con su dockerfile y es totalmente funcional en un contenedor docker en caso de que se desee levantarlo en docker
 
 
 
-MongoDB (En la nube con MongoDB Atlas) → el proyecto usa una base de datos en la nube con mongoAtlas por lo cual no es necesario tener instalado mongo, se puede realizar la conexion a la base desde cualquier gestor de bases de datos utilizando la siguiente cadena de conexion
+**Base de Datos**: MongoDB (En la nube con MongoDB Atlas) → el proyecto usa una base de datos en la nube con mongoAtlas por lo cual no es necesario tener instalado mongo, se puede realizar la conexion a la base desde cualquier gestor de bases de datos utilizando la siguiente cadena de conexion
 
 
  "ConnectionString":
  
 ```bash
-
+mongodb+srv://netby:netby@cluster0.zfdjr.mongodb.net/
 ```
- mongodb+srv://netby:netby@cluster0.zfdjr.mongodb.net/
+ 
 ---
 
 "DatabaseName":
