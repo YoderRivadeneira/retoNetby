@@ -8,6 +8,9 @@ Este proyecto es un **frontend desarrollado en React con TypeScript y Bootstrap*
 
 Para ejecutar este proyecto en un ambiente de desarrollo local, necesitas tener instalado:
 
+
+### FRONTAL(react)
+
 - **Node.js** (versión recomendada: 18 o superior) [Descargar Node.js](https://nodejs.org/)
 - **npm** (viene con Node.js) o **Yarn** (opcional)
 - **Git** (para clonar el repositorio si es necesario)
@@ -29,7 +32,7 @@ npm -v
 ### **1️⃣ Clonar el repositorio**
 Si aún no tienes el código en tu computadora, clónalo con el siguiente comando:
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/YoderRivadeneira/retoNetby
 ```
 Luego, accede al directorio del proyecto:
 ```bash
@@ -47,7 +50,7 @@ Una vez instaladas las dependencias, inicia el servidor de desarrollo con:
 ```bash
 npm start
 ```
-Esto levantará la aplicación en **http://localhost:3000** y podrás ver la interfaz del frontend.
+Esto levantará la aplicación localmente, por lo general en **http://localhost:3000** y podrás ver la interfaz del frontend.
 
 ---
 
@@ -58,7 +61,8 @@ Esto levantará la aplicación en **http://localhost:3000** y podrás ver la int
 ✅ **Agregar y eliminar campos en formularios** ➕✏️
 ✅ **Ingresar datos en los formularios** ✅
 ✅ **Validaciones básicas en los formularios** ⚠️
-✅ **Consultar datos ingresados** 🔍
+
+
 
 ---
 
@@ -68,33 +72,69 @@ A continuación, se presentan capturas de pantalla de las principales funcionali
 
 ### **📍 Pantalla de Listado de Formularios**
 ✅ Muestra los formularios disponibles.
-✅ Permite seleccionar un formulario para llenarlo o editarlo.
+✅ Permite seleccionar un formulario para visualizarlo a detalle
 
-*(Adjuntar captura de pantalla aquí)*
+
+![image](https://github.com/user-attachments/assets/fc86a35a-ba04-4f52-b40c-6d5897fb1237)
+
+
 
 ### **📍 Pantalla de Creación de Formularios**
 ✅ Permite crear un nuevo formulario.
 ✅ Permite agregar campos dinámicamente.
 
-*(Adjuntar captura de pantalla aquí)*
+
+![image](https://github.com/user-attachments/assets/8659dd96-2ef9-4f4b-8c8b-430003ca3c0a)
+![image](https://github.com/user-attachments/assets/620c481a-4404-4054-bb2c-6092206f1201)
+![image](https://github.com/user-attachments/assets/2348dbce-7d23-4a2b-81d8-70757f903b7b)
+![image](https://github.com/user-attachments/assets/e770f3e7-c3a0-47d3-b390-f93bdff255ad)
+
+
+
+
 
 ### **📍 Pantalla de Edición de Formularios**
 ✅ Permite editar el nombre y los campos de un formulario existente.
 ✅ Valida los campos antes de guardarlos.
 
-*(Adjuntar captura de pantalla aquí)*
+![image](https://github.com/user-attachments/assets/b74f1a71-fa8a-43f0-bd91-b337b9053180)
 
-### **📍 Pantalla de Ingreso de Datos en Formularios**
+
+
+
+### **📍 Pantalla de Ingreso de Datos en Formularios **
 ✅ Permite ingresar información en un formulario.
 ✅ Guarda los datos temporalmente para consulta.
 
 *(Adjuntar captura de pantalla aquí)*
 
 ### **📍 Pantalla de Consulta de Datos Ingresados**
-✅ Muestra los datos guardados en un modal.
-✅ Informa si no hay datos ingresados aún.
+✅ Muestra los datos de un form
 
-*(Adjuntar captura de pantalla aquí)*
+![image](https://github.com/user-attachments/assets/f1595f53-87d0-4acf-8dea-e19c34cfc569)
+
+![image](https://github.com/user-attachments/assets/d70aee97-d731-44b9-ad14-1217f48277ee)
+
+
+
+
+
+
+
+### **📍 Funcionalidad para eliminar Formularios**
+
+![image](https://github.com/user-attachments/assets/8d30acd2-2adb-40a1-b545-e41261bc480a)
+
+
+![image](https://github.com/user-attachments/assets/77ff9524-b8e4-4f70-ba4f-d11ba05048fa)
+
+![image](https://github.com/user-attachments/assets/e7fccc71-51d5-41fa-8964-ee298e08b6c0)
+![image](https://github.com/user-attachments/assets/1b5d45a6-0c6c-484a-8a69-a1b9b26d6cbc)
+
+
+
+
+
 
 ---
 
