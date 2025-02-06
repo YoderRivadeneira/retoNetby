@@ -1,0 +1,355 @@
+{
+	"info": {
+		"_postman_id": "d9bf9fde-0553-486d-9fc3-c2c5686247b9",
+		"name": "apiNetby",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14525067"
+	},
+	"item": [
+		{
+			"name": "obtener_formularios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5123/api/forms",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5123",
+					"path": [
+						"api",
+						"forms"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5123/api/forms",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5123",
+							"path": [
+								"api",
+								"forms"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 06 Feb 2025 06:23:04 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"454228675\",\n        \"name\": \"Vehículos\",\n        \"inputs\": [\n            {\n                \"id\": \"7\",\n                \"name\": \"Marca\",\n                \"type\": \"text\",\n                \"placeholder\": \"Ingresa la marca del vehículo\",\n                \"required\": true\n            },\n            {\n                \"id\": \"8\",\n                \"name\": \"Modelo\",\n                \"type\": \"text\",\n                \"placeholder\": \"Ingresa el modelo\",\n                \"required\": true\n            },\n            {\n                \"id\": \"9\",\n                \"name\": \"Año\",\n                \"type\": \"number\",\n                \"placeholder\": \"Ingresa el año\",\n                \"required\": false\n            },\n            {\n                \"id\": \"1738821802479\",\n                \"name\": \"campo agregado desde el frontal\",\n                \"type\": \"text\",\n                \"placeholder\": \"este input se agrego desde el frontal\",\n                \"required\": true\n            }\n        ]\n    },\n    {\n        \"id\": \"1476369726\",\n        \"name\": \"Persona\",\n        \"inputs\": [\n            {\n                \"id\": \"1\",\n                \"name\": \"Nombres\",\n                \"type\": \"text\",\n                \"placeholder\": \"Ingresa tu nombre\",\n                \"required\": true\n            },\n            {\n                \"id\": \"2\",\n                \"name\": \"Fecha de nacimiento\",\n                \"type\": \"date\",\n                \"placeholder\": \"\",\n                \"required\": true\n            },\n            {\n                \"id\": \"3\",\n                \"name\": \"Estatura\",\n                \"type\": \"number\",\n                \"placeholder\": \"Ingresa tu estatura en cm\",\n                \"required\": false\n            }\n        ]\n    },\n    {\n        \"id\": \"1712224392\",\n        \"name\": \"Mascota\",\n        \"inputs\": [\n            {\n                \"id\": \"4\",\n                \"name\": \"Especie\",\n                \"type\": \"text\",\n                \"placeholder\": \"Ingresa la especie\",\n                \"required\": true\n            },\n            {\n                \"id\": \"5\",\n                \"name\": \"Raza\",\n                \"type\": \"text\",\n                \"placeholder\": \"Ingresa la raza\",\n                \"required\": false\n            },\n            {\n                \"id\": \"6\",\n                \"name\": \"Color\",\n                \"type\": \"text\",\n                \"placeholder\": \"Ingresa el color\",\n                \"required\": false\n            }\n        ]\n    },\n    {\n        \"id\": \"1146090801\",\n        \"name\": \"viviendas\",\n        \"inputs\": [\n            {\n                \"id\": \"4\",\n                \"name\": \"direccion\",\n                \"type\": \"text\",\n                \"placeholder\": \"Ingresa la dir\",\n                \"required\": true\n            },\n            {\n                \"id\": \"5\",\n                \"name\": \"precio\",\n                \"type\": \"text\",\n                \"placeholder\": \"Ingresa precio\",\n                \"required\": false\n            },\n            {\n                \"id\": \"6\",\n                \"name\": \"Color\",\n                \"type\": \"text\",\n                \"placeholder\": \"Ingresa el color\",\n                \"required\": false\n            }\n        ]\n    },\n    {\n        \"id\": \"1420739136\",\n        \"name\": \"viviendassssss\",\n        \"inputs\": [\n            {\n                \"id\": \"4\",\n                \"name\": \"direccion\",\n                \"type\": \"text\",\n                \"placeholder\": \"Ingresa la dir\",\n                \"required\": true\n            },\n            {\n                \"id\": \"5\",\n                \"name\": \"precio\",\n                \"type\": \"text\",\n                \"placeholder\": \"Ingresa precio\",\n                \"required\": false\n            },\n            {\n                \"id\": \"6\",\n                \"name\": \"Color\",\n                \"type\": \"text\",\n                \"placeholder\": \"Ingresa el color\",\n                \"required\": false\n            }\n        ]\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "obtener_formularios_id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5123/api/forms/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5123",
+					"path": [
+						"api",
+						"forms",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "obtener_formularios_id",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5123/api/forms/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5123",
+							"path": [
+								"api",
+								"forms",
+								"2"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 06 Feb 2025 05:43:30 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"2\",\n    \"name\": \"Mascota\",\n    \"inputs\": [\n        {\n            \"id\": \"4\",\n            \"name\": \"Especie\",\n            \"type\": \"text\",\n            \"placeholder\": \"Ingresa la especie\",\n            \"required\": true\n        },\n        {\n            \"id\": \"5\",\n            \"name\": \"Raza\",\n            \"type\": \"text\",\n            \"placeholder\": \"Ingresa la raza\",\n            \"required\": false\n        },\n        {\n            \"id\": \"6\",\n            \"name\": \"Color\",\n            \"type\": \"text\",\n            \"placeholder\": \"Ingresa el color\",\n            \"required\": false\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "crear_form",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"name\": \"viviendassssss\",\r\n    \"inputs\": [\r\n        {\r\n            \"id\": \"4\",\r\n            \"name\": \"direccion\",\r\n            \"type\": \"text\",\r\n            \"placeholder\": \"Ingresa la dir\",\r\n            \"required\": true\r\n        },\r\n        {\r\n            \"id\": \"5\",\r\n            \"name\": \"precio\",\r\n            \"type\": \"text\",\r\n            \"placeholder\": \"Ingresa precio\",\r\n            \"required\": false\r\n        },\r\n        {\r\n            \"id\": \"6\",\r\n            \"name\": \"Color\",\r\n            \"type\": \"text\",\r\n            \"placeholder\": \"Ingresa el color\",\r\n            \"required\": false\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5123/api/forms/personas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5123",
+					"path": [
+						"api",
+						"forms",
+						"personas"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\r\n    \"name\": \"viviendassssss\",\r\n    \"inputs\": [\r\n        {\r\n            \"id\": \"4\",\r\n            \"name\": \"direccion\",\r\n            \"type\": \"text\",\r\n            \"placeholder\": \"Ingresa la dir\",\r\n            \"required\": true\r\n        },\r\n        {\r\n            \"id\": \"5\",\r\n            \"name\": \"precio\",\r\n            \"type\": \"text\",\r\n            \"placeholder\": \"Ingresa precio\",\r\n            \"required\": false\r\n        },\r\n        {\r\n            \"id\": \"6\",\r\n            \"name\": \"Color\",\r\n            \"type\": \"text\",\r\n            \"placeholder\": \"Ingresa el color\",\r\n            \"required\": false\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5123/api/forms/personas",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5123",
+							"path": [
+								"api",
+								"forms",
+								"personas"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 06 Feb 2025 06:20:26 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Location",
+							"value": "api/forms/personas/135518016"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"135518016\",\n    \"name\": \"viviendassssss\",\n    \"inputs\": [\n        {\n            \"id\": \"4\",\n            \"name\": \"direccion\",\n            \"type\": \"text\",\n            \"placeholder\": \"Ingresa la dir\",\n            \"required\": true\n        },\n        {\n            \"id\": \"5\",\n            \"name\": \"precio\",\n            \"type\": \"text\",\n            \"placeholder\": \"Ingresa precio\",\n            \"required\": false\n        },\n        {\n            \"id\": \"6\",\n            \"name\": \"Color\",\n            \"type\": \"text\",\n            \"placeholder\": \"Ingresa el color\",\n            \"required\": false\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "actualizar_frm",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"536302207\",\r\n    \"name\": \"Vehículos editados\",\r\n    \"inputs\": [\r\n        {\r\n            \"id\": \"7\",\r\n            \"name\": \"Marca\",\r\n            \"type\": \"text\",\r\n            \"placeholder\": \"Ingresa la marca del vehículo\",\r\n            \"required\": true\r\n        },\r\n        {\r\n            \"id\": \"8\",\r\n            \"name\": \"Modelo\",\r\n            \"type\": \"text\",\r\n            \"placeholder\": \"Ingresa el modelo\",\r\n            \"required\": true\r\n        },\r\n        {\r\n            \"id\": \"9\",\r\n            \"name\": \"Año\",\r\n            \"type\": \"number\",\r\n            \"placeholder\": \"Ingresa el año\",\r\n            \"required\": false\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5123/api/forms/personas/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5123",
+					"path": [
+						"api",
+						"forms",
+						"personas",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"536302207\",\r\n    \"name\": \"Vehículos editados\",\r\n    \"inputs\": [\r\n        {\r\n            \"id\": \"7\",\r\n            \"name\": \"Marca\",\r\n            \"type\": \"text\",\r\n            \"placeholder\": \"Ingresa la marca del vehículo\",\r\n            \"required\": true\r\n        },\r\n        {\r\n            \"id\": \"8\",\r\n            \"name\": \"Modelo\",\r\n            \"type\": \"text\",\r\n            \"placeholder\": \"Ingresa el modelo\",\r\n            \"required\": true\r\n        },\r\n        {\r\n            \"id\": \"9\",\r\n            \"name\": \"Año\",\r\n            \"type\": \"number\",\r\n            \"placeholder\": \"Ingresa el año\",\r\n            \"required\": false\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5123/api/forms/personas/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5123",
+							"path": [
+								"api",
+								"forms",
+								"personas",
+								"1"
+							]
+						}
+					},
+					"status": "No Content",
+					"code": 204,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 06 Feb 2025 05:40:16 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						}
+					],
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "actualizar_frm Copy",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Vehículos Actualizados\",\r\n    \"inputs\": [\r\n        {\r\n            \"id\": \"7\",\r\n            \"name\": \"Marca\",\r\n            \"type\": \"text\",\r\n            \"placeholder\": \"Nueva marca\",\r\n            \"required\": true\r\n        }\r\n    ]\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5123/api/forms/personas/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5123",
+					"path": [
+						"api",
+						"forms",
+						"personas",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "eliminar_frm",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5123/api/forms/personas/67a413538d2dd3f67fc2be3e",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5123",
+					"path": [
+						"api",
+						"forms",
+						"personas",
+						"67a413538d2dd3f67fc2be3e"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
