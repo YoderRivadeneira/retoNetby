@@ -9,11 +9,12 @@ Este proyecto es un **frontend desarrollado en React con TypeScript y Bootstrap*
 Para ejecutar este proyecto en un ambiente de desarrollo local, necesitas tener instalado:
 
 
-### FRONTAL(react)
+### FRONTAL(react): Este frontend está preparado para conectarse con un backend en .NET Core 8, donde se obtienen y almacenan los formularios dinámicamente en una base de datos.
 
 - **Node.js** (versión recomendada: 18 o superior) [Descargar Node.js](https://nodejs.org/)
 - **npm** (viene con Node.js) o **Yarn** (opcional)
 - **Git** (para clonar el repositorio si es necesario)
+- **React 18** 
 
 Para verificar si tienes Node.js instalado, usa el siguiente comando en tu terminal:
 ```bash
@@ -27,14 +28,106 @@ npm -v
 
 ---
 
-## 📌 2. Ejecución del Frontend
+
+
+
+
+
+### BACKEND (API en NetCore 8): Esta API está preparado para conectarse con el frontal en react y provee las funcionalidades necesarias al front para la gestión de formularios.
+
+- **NetCore** (versión recomendada: 8) [DescargarNetCore 8](https://dotnet.microsoft.com/es-es/download/dotnet/8.0)
+- **npm** (viene con Node.js) o **Yarn** (opcional)
+- **Git** (para clonar el repositorio si es necesario)
+
+Para verificar si tienes .NET SDK instalado, usa el siguiente comando en tu terminal:
+```bash
+dotnet --version
+```
+
+Docker (Opcional, si deseas correr el API en un contenedor) → El proyecto cuenta con su dockerfile y es totalmente funcional en un contenedor docker en caso de que se desee levantarlo en docker
+
+
+
+MongoDB (En la nube con MongoDB Atlas) → el proyecto usa una base de datos en la nube con mongoAtlas por lo cual no es necesario tener instalado mongo, se puede realizar la conexion a la base desde cualquier gestor de bases de datos utilizando la siguiente cadena de conexion
+
+
+ "ConnectionString":
+ 
+```bash
+
+```
+ mongodb+srv://netby:netby@cluster0.zfdjr.mongodb.net/
+---
+
+"DatabaseName":
+```
+"netbyDB
+---
+Postman o cualquier cliente HTTP para probar los endpoints
+
+
+
+
+## 📌 2. Ejecución del Backend y Frontend
 
 ### **1️⃣ Clonar el repositorio**
 Si aún no tienes el código en tu computadora, clónalo con el siguiente comando:
 ```bash
 git clone https://github.com/YoderRivadeneira/retoNetby
 ```
-Luego, accede al directorio del proyecto:
+
+### PARA EL BACKEND
+
+Luego de clonar el proyecto, accede al directorio del proyecto backend:
+```bash
+cd reto_netby/netbyApi
+```
+
+### **2️⃣ Instalar las dependencias**
+Ejecuta el siguiente comando para instalar todas las dependencias necesarias:
+```bash
+dotnet restore
+```
+
+o
+
+```bash
+dotnet build
+```
+
+### **3️⃣ Ejecutar la aplicación**
+Una vez instaladas las dependencias, inicia el servidor de desarrollo con:
+```bash
+dotnet run
+```
+Esto levantará la aplicación localmente, se implemento swagger por lo tanto se puede comprobar que la aplicación se levanta correctamente si se abre la documentación del Api con swagger.
+
+
+swagger
+
+![image](https://github.com/user-attachments/assets/0e939750-52d3-429f-b7dc-097d1c3d3525)
+
+(opcional)También se puede usar el dockerfile con los siguientes comandos
+
+# Construir la imagen
+```bash
+docker build -t netby-api .
+```
+
+# Ejecutar el contenedor
+
+```bash
+
+docker run -d -p 5123:5123 --name backend netby-api
+```
+
+---
+
+
+
+### PARA EL FRONTEND
+
+Luego de clonar el proyecto, accede al directorio del proyecto front:
 ```bash
 cd reto_netby/frontend
 ```
