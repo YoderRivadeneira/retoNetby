@@ -1,0 +1,37 @@
+# 🔹 ARCHIVOS PARA IGNORAR EN EL BACKEND (.NET)
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+.nuget/
+.vscode/
+.idea/
+appsettings.Development.json
+appsettings.Local.json
+appsettings.Production.json
+secrets.json
+
+# 🔹 ARCHIVOS PARA IGNORAR EN EL FRONTEND (React)
+node_modules/
+package-lock.json
+yarn.lock
+build/
+dist/
+.cache/
+
+# 🔹 ARCHIVOS GENERALES A IGNORAR (PARA AMBOS PROYECTOS)
+.env
+.env.local
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+*.db
+*.mdb
+
+# 🔹 DOCKER
+Dockerfile
+docker-compose.yml
+.dockerignore
