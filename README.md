@@ -60,8 +60,10 @@ mongodb+srv://netby:netby@cluster0.zfdjr.mongodb.net/
 ---
 
 "DatabaseName":
-```
+
+```bash
 "netbyDB
+```
 ---
 Postman o cualquier cliente HTTP para probar los endpoints
 
