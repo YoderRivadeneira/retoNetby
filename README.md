@@ -111,12 +111,12 @@ swagger
 
 (opcional)También se puede usar el dockerfile con los siguientes comandos
 
-# Construir la imagen
+### Construir la imagen
 ```bash
 docker build -t netby-api .
 ```
 
-# Ejecutar el contenedor
+### Ejecutar el contenedor
 
 ```bash
 
@@ -244,10 +244,11 @@ A continuación, se presentan capturas de pantalla de las principales funcionali
 
 ---
 
-## 📌 5. Consideraciones Futuros
+## 📌 5. Consideraciones 
 
-🚀 **Este frontend está preparado para conectarse con un backend en .NET Core 8, donde se obtendrán y almacenarán los formularios dinámicamente en una base de datos.
-
+🚀 **Uso de Dockerfile OK.
+🚀 **Uso de validaciones básicas en los inputs y forms.
+🚀 **Pantalla para consulta de información de un formulario.
 
 
 📍 **Si tienes dudascontáctame.** 😊
